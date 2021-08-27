@@ -99,12 +99,12 @@ public class Transactions extends JFrame implements ActionListener {
     
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource() == b1){
-            //new Deposite().setVisible(true);
+            new Deposite().setVisible(true);
             setVisible(false);
         }
         else if(ae.getSource()==b2){ 
             
-            //new Withdrawl().setVisible(true);
+            new Withdrawal().setVisible(true);
             setVisible(false);
             
         }
