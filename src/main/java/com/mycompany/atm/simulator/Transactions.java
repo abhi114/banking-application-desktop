@@ -120,7 +120,7 @@ public class Transactions extends JFrame implements ActionListener {
             
         }else if(ae.getSource()==b5){ 
             
-            //new Pin().setVisible(true);
+            new Pin().setVisible(true);
             setVisible(false);
         }
         else if(ae.getSource()==b6){
